@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Archive"
-permalink: /rg/archive/
+permalink: /archive/
 datatable: true
 ---
 

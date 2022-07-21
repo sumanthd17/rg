@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Contact us"
-permalink: /rg/contact/
+permalink: /contact/
 ---
 
 Email us at `doddapaneni.sumanth` `at` `gmail` `dot` `com`, especially if:
