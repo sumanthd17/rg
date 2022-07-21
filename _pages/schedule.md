@@ -2,7 +2,7 @@
 layout: post
 title: "Schedule"
 author: "Sumanth Doddapaneni"
-permalink: /schedule/
+permalink: /rg/schedule/
 ---
 
 <h2 class="text-center">{{ site.current_semester_name }}</h2>
