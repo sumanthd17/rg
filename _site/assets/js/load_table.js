@@ -18,7 +18,7 @@ $(document).ready(function() {
             [3, "desc"]
         ],
         info: false,
-        ajax: "../../archive.txt",
+        ajax: "../archive.txt",
         columns: [
         {
             "className": 'details-control',
@@ -81,7 +81,7 @@ $(document).ready(function() {
         paging: false,
         info: false,
         bFilter: false,
-        ajax: "../../this_semester.txt",
+        ajax: "../this_semester.txt",
         order: [
             [3, "asc"]
         ],
@@ -98,7 +98,7 @@ $(document).ready(function() {
             data: "key",
             "fnCreatedCell": function(nTd, sData, oData, iRow, iCol) {
                 if (sData) {
-                    $(nTd).html("<img src='/assets/headshots/" + oData["key"] + "_" + oData["date"] + ".jpg' width=150 onerror=\"this.onerror=null; this.src='/assets/images/MLFL.png'\"/>");
+                    $(nTd).html("<img src='/rg/assets/headshots/" + oData["key"] + "_" + oData["date"] + ".jpg' width=150 onerror=\"this.onerror=null; this.src='/rg/assets/images/MLFL.png'\"/>");
                 } else {
                     $(nTd).html("-");
                 }
