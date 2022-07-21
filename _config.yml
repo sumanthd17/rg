@@ -1,7 +1,7 @@
 # Site settings
 title:          "[Place Holder]"
 description:    "[Place Holder]"
-baseurl:        "/tale"
+baseurl:        ""
 url:            "https://sumanthd17.github.io/rg"
 
 # [Place Holder] settings
@@ -25,8 +25,9 @@ sass:
 
 # Gems
 plugins:
+  - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme
+  - jekyll-seo-tag
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
