@@ -1,0 +1,13 @@
+<nav class="nav">
+  <div class="nav-container">
+    <a href="{{ site.baseurl }}/">
+      <h2 class="nav-title">{{ site.title }}</h2>
+    </a>
+    <ul>
+      <li><a href="{{ '/' | prepend: site.absolute_url }}">About</a></li>
+      <li><a href="{{ '/schedule' | prepend: site.absolute_url }}">Schedule</a></li>
+      <li><a href="{{ '/archive' | prepend: site.absolute_url }}">Archive</a></li>
+      <li><a href="{{ '/contact' | prepend: site.absolute_url }}">Contact</a></li>
+    </ul>
+  </div>
+</nav>

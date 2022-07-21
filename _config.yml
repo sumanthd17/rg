@@ -1,0 +1,42 @@
+# Site settings
+title:          "[Place Holder]"
+description:    "[Place Holder]"
+baseurl:        ""
+url:            "https://sumanthd17.github.io/rg"
+
+# [Place Holder] settings
+current_semester_name: "Fall 2022"
+current_sem_start: 2022-08-01
+current_sem_end: 2022-11-30
+
+# Author
+author:
+  name:         Sumanth Doddapaneni
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec, process_info.py ]
+
+keep_files: [assets]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale

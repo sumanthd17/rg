@@ -1,0 +1,27 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% seo %}
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/jquery.dataTables.min.css" | relative_url }}"/>
+  <script type="text/javascript" src="{{ "/assets/js/jquery.dataTables.min.js" | relative_url }}"></script>
+
+  
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/bootstrap-table.min.css" | relative_url }}"/>
+  <script type="text/javascript" src="{{ "/assets/js/bootstrap-table.min.js" | relative_url }}"></script>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- RSS -->
+  {% feed_meta %}
+
+  <!-- Google Analytics-->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+</head>
