@@ -1,6 +1,7 @@
 # Site settings
 title:          "[Place Holder]"
 description:    "[Place Holder]"
+baseurl:        ""
 url:            "https://sumanthd17.github.io/rg"
 
 # [Place Holder] settings
@@ -22,17 +23,19 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
-# Gems
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-  # - jemoji #Uncomment this to allow emoji in your post
-
 remote_theme: chesterhow/tale
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:     5
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec, process_info.py ]
