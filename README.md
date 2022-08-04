@@ -1,14 +1,14 @@
-[Place Holder]
+WHY
 =========================================
 
 How to update this website: there are three things you need to update on a regular basis.
 
-## [Place Holder] Metadata
+## WHY Metadata
 
 Once a semester, update the following lines in `_config.yml`
 
 ```
-# [Place Holder] settings
+# WHY settings
 current_semester_name: "Fall 2022"
 current_sem_start: 2022-08-01
 current_sem_end: 2022-11-31
@@ -18,7 +18,7 @@ This affects what the semester is called, and which talks appear in 'This semest
 
 ## Speaker data
 
-Speaker data is recorded in a Google sheets spreadsheet, which you should have access to if you are a [Place Holder] organizer. Any time there are new updates to the Website Data spreadsheet, download the sheet as a TSV (File > Download > Tab-separated values (.tsv)). Then, run
+Speaker data is recorded in a Google sheets spreadsheet, which you should have access to if you are a WHY organizer. Any time there are new updates to the Website Data spreadsheet, download the sheet as a TSV (File > Download > Tab-separated values (.tsv)). Then, run
 
 `python process_info.py /path/to/new/tsv/file.tsv`
 
